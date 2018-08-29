@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="listEntryPane" prefHeight="26.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <Label fx:id="tfItem" layoutY="1.0" prefHeight="25.0" prefWidth="268.0" />
+   <Label fx:id="tfAmount" layoutX="280.0" layoutY="1.0" prefHeight="25.0" prefWidth="249.0" />
+</AnchorPane>

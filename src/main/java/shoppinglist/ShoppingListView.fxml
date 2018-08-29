@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="shoppinglist.ShoppingListController">
+   <children>
+      <ListView fx:id="listView" layoutX="9.0" layoutY="80.0" prefHeight="320.0" prefWidth="591.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets></ListView>
+      <Button fx:id="btnSave" disable="true" layoutX="426.0" layoutY="14.0" mnemonicParsing="false" onMouseReleased="#onSave" prefHeight="25.0" prefWidth="74.0" text="Save" />
+      <Button fx:id="btnRemove" disable="true" layoutX="512.0" layoutY="14.0" mnemonicParsing="false" onMouseReleased="#onRemove" prefHeight="25.0" prefWidth="74.0" text="Remove" />
+      <TextField fx:id="tfItem" layoutX="14.0" layoutY="14.0" onKeyReleased="#onEnteredItem" prefHeight="25.0" prefWidth="323.0" promptText="New Item" />
+      <TextField fx:id="tfAmount" layoutX="345.0" layoutY="14.0" onKeyReleased="#onEnteredAmount" prefHeight="25.0" prefWidth="68.0" promptText="Amount" />
+      <Label layoutX="22.0" layoutY="46.0" prefHeight="25.0" prefWidth="250.0" text="Item" />
+      <Label layoutX="289.0" layoutY="46.0" prefHeight="25.0" prefWidth="56.0" text="Amount" />
+   </children>
+</AnchorPane>
