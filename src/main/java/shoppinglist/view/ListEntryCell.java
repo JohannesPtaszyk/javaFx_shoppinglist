@@ -1,11 +1,11 @@
-package shoppinglist;
+package shoppinglist.view;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListCell;
-import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
+import shoppinglist.data.ListEntry;
 
 import java.io.IOException;
 
@@ -49,7 +49,7 @@ public class ListEntryCell extends ListCell<ListEntry> {
         }
 
         try {
-            loader = new FXMLLoader(getClass().getResource("./ListEntryCell.fxml"));
+            loader = new FXMLLoader(getClass().getResource("ListEntryCell.fxml"));
             loader.setController(this);
             loader.load();
         } catch (IOException e) {

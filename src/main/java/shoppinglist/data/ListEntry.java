@@ -1,4 +1,4 @@
-package shoppinglist;
+package shoppinglist.data;
 
 import com.sun.istack.internal.NotNull;
 

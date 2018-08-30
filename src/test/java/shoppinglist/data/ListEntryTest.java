@@ -1,8 +1,6 @@
 package shoppinglist.data;
 
 import org.junit.Test;
-import shoppinglist.Item;
-import shoppinglist.ListEntry;
 
 import static junit.framework.TestCase.assertTrue;
 import static org.mockito.Mockito.mock;
